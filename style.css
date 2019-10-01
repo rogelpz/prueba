@@ -1,0 +1,111 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+.popup {
+    background-color: black;
+    color: white;
+    font-size: 0.5rem;
+}
+
+.popup:hover {
+    background-color: darkslategrey;
+}
+
+.topmenu {
+    background-color: aqua;
+}
+
+.logo {
+    background-color: brown;
+}
+
+.personal {
+    background-color: blue;
+}
+
+.empresarial {
+    background-color: blueviolet;
+}
+
+.buscador {
+    background-color: beige;
+}
+
+.login {
+    background-color: aquamarine;
+}
+
+.cuenta {
+    background-color: brown;
+}
+
+.principal {
+    background-color: grey;
+}
+
+.campañas {
+    background-color: aqua;
+}
+
+.beneficios {
+    background-color: blue;
+    display: grid;
+    grid-template-columns: (repeat(4,1fr));
+    grid-template-rows: minmax(200px, auto);
+    gap: 1rem;
+}
+
+.bene1 {
+    background-color: bisque;
+    justify-content: start;
+    display: grid;
+}
+
+.descripcion {
+    background-color: beige;
+}
+
+.funcionamiento {
+    background-color: darkgoldenrod;
+}
+
+.descargas {
+    background-color: darkmagenta;
+}
+
+.alianzas {
+    background-color: darksalmon;
+}
+
+.suscriptores {
+    background-color: darkseagreen;
+}
+
+.reviews {
+    background-color: firebrick;
+}
+
+.contacto {
+    background-color: deeppink;
+}
+
+.endmenu {
+    background-color: beige;
+}
+
+.redessociales {
+    background-color: greenyellow;
+}
+
+.legalmenu {
+    background-color: khaki;
+}
+
+.copyright {
+    background-color: darkorange;
+}
